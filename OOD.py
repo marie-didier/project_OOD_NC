@@ -173,7 +173,7 @@ transform_train = transforms.Compose([
 
 batch_size = 256
 
-model_path = os.path.join(os.path.dirname(__file__), 'resnet18_cifar100_100epochs.pth')
+model_path = os.path.join(os.path.dirname(__file__), 'resnet18_cifar100_200epochs.pth')
 model = ResNet18(num_classes=100).to(device)
 state_dict = torch.load(model_path, map_location=device)
 model.load_state_dict(state_dict)
