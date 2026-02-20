@@ -1,0 +1,9 @@
+torch
+torchvision
+
+# Analyse et Matrices
+numpy
+scikit-learn
+
+# Visualisation
+matplotlib
